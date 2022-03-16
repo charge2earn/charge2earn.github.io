@@ -23,6 +23,9 @@ twitter_username: charge2earn
 github_username: charge2earn
 minimal_mistakes_skin: sunrise
 search: false
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : true
 
 # Build settings
 markdown: kramdown
@@ -82,7 +85,7 @@ footer:
       url: "https://twitter.com/charge2earn"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin-square"
-      url: "https://linkedin.com/in/charge2earn"
+      url: "https://www.linkedin.com/company/charge2earn/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
