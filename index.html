@@ -1,7 +1,50 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+title: "Join our club of *selected EV drivers*"
+layout: splash
+date: 2016-03-23T11:48:41-04:00
+header:
+  overlay_color: "#baaa92"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/escooter.jpg
+  actions:
+    - label: "Waitlist"
+      url: "https://github.com/mmistakes/minimal-mistakes/"
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "Charge your EV &#9889; &amp; get rewards from your loved brands &#x1F381;"
+intro: 
+  # - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: "It's that simple. <b>Every time you charge</b> your electric vehicle at a public station you receive loyalty points that can be redeemed for <b>exclusive deals, gifts, promotions, or benefits</b> from retail stores, hotel chains, restaurants, airlines, cinemas, and more. You name it :)"
+    url: "#test-link"
+    btn_label: "Catalog of affiliated companies"
+    btn_class: "btn--primary"
+feature_row:
+  - image_path: assets/images/enroll.png
+    alt: "Enroll"
+    title: "Enroll"
+    excerpt: "Opt-in to **loyalty programs and premium campaigns**, from a well-known company to your local store downtown - you can choose how many you like!"
+  - image_path: /assets/images/charging.jpg
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "Earn"
+    title: "Earn"
+    excerpt: "Use your [favorite emobility app](https://www.charge2earn.com) to **discover charging stations nearby** that are offering you rewards; go charge your EV there and - *'voilá!'* - **loyalty points** are assigned to your membership wallet."
+    # url: "#test-link"
+    # btn_label: "Mobility service providers"
+    # btn_class: "btn--primary"
+  - image_path: /assets/images/surprise.png
+    title: "Redeem"
+    excerpt: "**Cash out** your points anytime, in the way they were designed for, as usual, and **get joy**!"
+feature_row2:
+  - image_path: /assets/images/mailbox.jpg
+    alt: "placeholder image 2"
+    title: "Receive Our Newsletter"
+    excerpt: "Read the latest news from the electromobility industry, and be the first to join us when we are ready to launch"
+    url: "#test-link"
+    btn_label: "Subscribe Me"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="center" %}
